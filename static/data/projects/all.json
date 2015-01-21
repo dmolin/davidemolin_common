@@ -1,15 +1,21 @@
 [
     {
-        "id":8,
-        "title": "My new FED Course on Udemy",
-        "imgUrl": "images/projects/fofed.jpg",
-        "url": "https://www.udemy.com/foundations-of-front-end-development/?couponCode=HVZ6Q8LZEF"
+        "id":9,
+        "title": "My personal website - made with Angular.js",
+        "imgUrl": "images/projects/homepage-angular.jpg",
+        "url": "http://github.com/dmolin/www.davidemolin.com-angular"
     },
     {
         "id":1,
-        "title": "My Personal Homepage",
-        "imgUrl": "images/projects/homepage.jpg",
+        "title": "My Personal website - Backbone.js version",
+        "imgUrl": "images/projects/homepage-backbone.jpg",
         "url": "http://github.com/dmolin/www.davidemolin.com"
+    },
+    {
+        "id":8,
+        "title": "My new FED Course on Udemy",
+        "imgUrl": "images/projects/fofed.jpg",
+        "url": "https://www.udemy.com/foundations-of-front-end-development/"
     },
     {
         "id":2,
