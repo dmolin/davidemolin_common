@@ -1,0 +1,73 @@
+.structural {
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    position: absolute!important;
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+.cameo {
+    border-radius: 100px;
+}
+
+.rounded {
+    border-radius: 6px;
+}
+
+.pad {
+    padding: 0 1em 1em;
+}
+
+.pad-E { padding-right: 1em;}
+.pad-W { padding-left: 1em;}
+.pad-N { padding-top: 1em;}
+.pad-S { padding-bottom: 1em;}
+
+.framed {
+    border: 1px solid #333;
+    padding: 0.5em;
+}
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+.cf:after {
+    clear: both;
+}
+
+.wrapper {
+    padding: 0 1em 0;
+    margin: 0 auto;
+    max-width: 980px;
+    overflow: hidden;
+    }
+
+    @media (min-width: 64em) {
+        .wrapper {
+            padding: 0;
+        }
+    }
+
+
+.wrapper--home {
+    background-image: url(../images/wrapper.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    text-shadow:0 1px 0 #000;
+}
+
+
+.yesno {
+}
+
+.yesno-yes,
+.yesno-no {
+    padding: 0 1em 0 0.5em;
+}
+.yesno__title {
+    padding-left: 0.5em;
+}
+
+

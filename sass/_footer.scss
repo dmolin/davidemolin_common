@@ -1,0 +1,118 @@
+/*---------------------------------
+ * Footer
+ *--------------------------------*/
+
+.footer {
+    text-shadow:1px 1px 0 #000;
+    background-color: #201f1e;
+    margin-top: 25px;
+    padding-top: 30px;
+    padding-right: 0px;
+    padding-bottom: 30px;
+    padding-left: 0px;
+}
+
+.footer h2 {
+    margin-top: 0;
+}
+
+
+/*--------------------------------
+ * Testimonials
+ *-------------------------------*/
+.testimonials {
+    font-size: 0.8em;
+}
+.testimonials .slideshow {
+    list-style:none;
+    padding:0;
+    margin:0;
+    position: relative;
+}
+.testimonials .slidesjs-container,
+.testimonials .slidesjs-control {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.testimonials .slidesjs-pagination {
+    position: absolute;
+    top: 1px;
+    right: 0;
+}
+.testimonials .slides-container {
+    opacity: 0;
+    transition: all 1s linear;
+}
+.testimonials .slides-container.rendered {
+    opacity: 1;
+}
+
+
+.endorsement .title {
+    font-weight: bold;
+    display: block;
+}
+.authors {
+    font-weight: bold;
+    color: #666666;
+    text-align: right;
+    display: block;
+}
+
+/*--------------------------------
+ * Twitter
+ *-------------------------------*/
+a.twitter-follow {
+    padding: 0px;
+    height: 50px;
+    width: 75px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    display: block;
+    text-indent: -9999px;
+    background-image: url(../images/twitter.png);
+    margin-top: -1px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    /*float: right;*/
+    }
+
+    /* move follow icon because of erratic width of twitter widget when transitioning between mobile and small displays */
+    @media screen and (min-width: 485px) and (max-width: 568px) {
+        a.twitter-follow {
+            float: none;
+            /*margin-left: 385px;*/
+        }
+    }
+
+.twitter-timeline {
+    min-width: 100% !important;
+}
+
+
+/*----------------------------------
+ * Feeds
+ *---------------------------------*/
+.feed-list .feed-item .feed-title {
+    display:block;
+    margin-bottom:10px;
+}
+
+.feed-list .feed-item .feed-tstamp {
+    display:block;
+    font-size:0.9em;
+    color: #AAAAAA;
+}
+
+/***************************************************
+                 COPYRIGHT
+***************************************************/
+.copyright {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.copyright__text {
+    text-align: center;
+    color: #666666;
+}

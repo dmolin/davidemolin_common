@@ -1,0 +1,21 @@
+{
+  "name": "davidemolin-common",
+  "version": "0.0.1",
+  "description": "Davide Molin's homepage - common assets and styles",
+  "author": "Davide Alberto Molin <@davidemolin> (http://www.davidemolin.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dmolin/www.davidemolin.com-common"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-ruby-sass": "*",
+    "gulp-watch": "*"
+  },
+  "engines": {
+    "node": ">=0.10.20"
+  }
+}

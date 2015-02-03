@@ -1,0 +1,20 @@
+
+/*---------------------------------
+ * Lists
+ *---------------------------------*/
+
+.list {
+    list-style: none;
+    padding-left: 1em;
+}
+
+.list strong {
+    @extend .enhanced--light;
+}
+
+.list__item {
+    line-height: 1.5em;
+    border-bottom: 1px dotted #333;
+    font-size: 1.1em;
+}
+

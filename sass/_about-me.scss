@@ -1,0 +1,22 @@
+/*---------------------------------
+ * About me
+ *---------------------------------*/
+.about-me {
+    display: block;
+    max-width: 150px;
+    margin: auto;
+    }
+
+    @media (min-width: 35.5em) {
+        .about-me {
+            display: inline-block;
+            margin: 0;
+        }
+
+    }
+
+.about-me-bio {
+    padding: 0.5em 2em;
+}
+
+

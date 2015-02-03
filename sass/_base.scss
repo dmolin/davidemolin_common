@@ -1,0 +1,44 @@
+$base-color: #111111 !default;
+
+/*----------------------------------
+ * Base styles
+ *---------------------------------*/
+
+ html, body, * {
+    box-sizing: border-box;
+}
+
+blockquote { margin: 0; }
+
+article p,
+footer p {
+    line-height: 1.3em;
+}
+
+body {
+    color: #ddd;
+    font-size: 16px;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: $base-color;
+    background-image: url(../images/bg-body.jpg);
+    background-repeat: repeat;
+    background-position: left top;
+
+    min-width: 320px;
+}
+
+a {
+    text-decoration: none;
+    color: #349ba8;
+    outline:none;
+    border-style: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border: 1px inset #666;
+}

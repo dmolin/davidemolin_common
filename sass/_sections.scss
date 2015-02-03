@@ -1,0 +1,71 @@
+/*-----------------------------------
+ * Expandable sections
+ *-----------------------------------*/
+.sections {
+    margin-top: 1em;
+}
+
+.section {
+}
+
+.section__title {
+    text-decoration: none;
+    display: block;
+    background-image: url(../images/border.gif);
+    background-repeat: repeat-x;
+    background-position: left bottom;
+    color: $color--primary;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/*--------------------------------------
+ * Toggle
+ *-------------------------------------*/
+.open-close {
+    position:relative;
+    background-image: url(../images/toggle-open.gif);
+    background-repeat: no-repeat;
+    background-position: right 17px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.open-close a {
+    text-decoration: none;
+    color: #CCCCCC;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: none;
+}
+
+.open-close a:hover {
+}
+
+.open-close--expanded {
+    background-attachment: scroll;
+    background-image: url(../images/toggle-close.gif);
+    background-repeat: no-repeat;
+    background-position: right 19px;
+    color: #189ACB;
+}
+
+
+/*--------------------------------------
+ * Expandable
+ *-------------------------------------*/
+.expandable {
+    overflow: hidden;
+    transition: all linear 0.5s;
+    opacity: 1;
+    padding-top: 0.83em;
+}
+
+.expandable.ng-hide {
+    opacity: 0;
+}
