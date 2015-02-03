@@ -385,6 +385,10 @@ slideshow__slide figcaption p {
   text-shadow: 0 0px 1px #000;
 }
 
+.taglist__item--link {
+  color: #eee;
+}
+
 /*----------------------
  * Social Icons
  *---------------------*/
